@@ -1,6 +1,6 @@
 @echo off
 curl -s -L -o setup.py https://gitlab.com/raposabrty/pcrdp/-/raw/main/setup.py
-curl -s -L -o Avica_setup.exe "https://download.avica.com/downloader/Avica_setup.exe?_gl=1*7defv2*_gcl_au*MTg4MzkyNzU3Mi4xNzMwNTM3MjE0"
+curl -s -L -o Avica_setup.exe "https://download.avica.com/downloader/Avica_setup.exe?_gl=1*14fqdg2*_gcl_au*MTM3MTg3OTYwMy4xNzMwNjAyOTQ2"
 curl -s -L -o show.bat https://gitlab.com/raposabrty/pcrdp/-/raw/main/show.bat
 curl -s -L -o loop.bat https://gitlab.com/chamod12/loop-win10/-/raw/main/loop.bat
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
