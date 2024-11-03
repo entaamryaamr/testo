@@ -7,7 +7,7 @@ import os
 actions = [
     (516, 405, 4),  # install (wait 15sec)
     (50, 100, 1),   # tic launch avica
-    (500, 440, 4),  # Later Update
+    (500, 450, 4),  # Later Update
     (249, 203, 4),  # allow rdp (attempt to activate the Allow button)
     (249, 203, 4),  # allow rdp (attempt to activate the Allow button again)
     (249, 203, 4),  # allow rdp (attempt to activate the Allow button again)
@@ -46,9 +46,9 @@ def upload_image_to_gofile(img_filename):
 # Iterate through actions
 for x, y, duration in actions:
     pag.click(x, y, duration=duration)
-    time.sleep(1)  # Delay to ensure the button click registers
+    time.sleep(3)  # Delay to ensure the button click registers
 
-    if (x, y) == (500, 440):
+    if (x, y) == (500, 450):
         time.sleep(5)
         pag.click(x, y, duration=duration)
     
@@ -59,6 +59,7 @@ for x, y, duration in actions:
     if (x, y) == (447, 286):  # Launch avica and upload screenshot
         os.system('"C:\\Program Files (x86)\\Avica\\Avica.exe"')
         time.sleep(5)  # Wait for 5 seconds after launching Avica
+        pag.click(500, 450, duration=3)
         pag.click(249, 203, duration=4)  # Re-click on the Allow button coordinates
         time.sleep(10)  # Extra 10 seconds delay before taking the screenshot
         pag.screenshot().save(img_filename)
