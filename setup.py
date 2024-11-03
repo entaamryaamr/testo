@@ -47,6 +47,10 @@ def upload_image_to_gofile(img_filename):
 for x, y, duration in actions:
     pag.click(x, y, duration=duration)
     time.sleep(1)  # Delay to ensure the button click registers
+
+    if (x, y) == (496, 438):
+        time.sleep(5)
+        pag.click(x, y, duration=duration)
     
     if (x, y) == (249, 203):  # Attempt to activate "Allow remote access"
         time.sleep(1)  # Delay after clicking
