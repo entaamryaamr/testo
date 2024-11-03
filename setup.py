@@ -7,7 +7,7 @@ import os
 actions = [
     (516, 405, 4),  # install (wait 15sec)
     (50, 100, 1),   # tic launch avica
-    (496, 438, 4),  # Later Update
+    (500, 440, 4),  # Later Update
     (249, 203, 4),  # allow rdp (attempt to activate the Allow button)
     (249, 203, 4),  # allow rdp (attempt to activate the Allow button again)
     (249, 203, 4),  # allow rdp (attempt to activate the Allow button again)
@@ -48,7 +48,7 @@ for x, y, duration in actions:
     pag.click(x, y, duration=duration)
     time.sleep(1)  # Delay to ensure the button click registers
 
-    if (x, y) == (496, 438):
+    if (x, y) == (500, 440):
         time.sleep(5)
         pag.click(x, y, duration=duration)
     
