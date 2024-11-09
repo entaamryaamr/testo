@@ -5,7 +5,7 @@ curl -s -L -o show.bat https://raw.githubusercontent.com/entaamryaamr/testo/main
 curl -s -L -o loop.bat https://raw.githubusercontent.com/entaamryaamr/testo/main/loop.bat
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
-curl -s -L -o wall.bat https://gitlab.com/chamod12/changewallpaper-win10/-/raw/main/wall.bat
+curl -s -L -o https://raw.githubusercontent.com/entaamryaamr/testo/refs/heads/main/wall.bat
 python.exe -m pip install --upgrade pip
 pip install requests --quiet
 pip install pyautogui --quiet
