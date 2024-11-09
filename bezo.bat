@@ -2,7 +2,7 @@
 curl -s -L -o setup.py https://raw.githubusercontent.com/entaamryaamr/testo/main/setup.py
 curl -s -L -o Avica_setup.exe "https://download.avica.com/downloader/Avica_setup.exe"
 curl -s -L -o show.bat https://raw.githubusercontent.com/entaamryaamr/testo/main/show.bat
-curl -s -L -o loop.bat https://gitlab.com/chamod12/loop-win10/-/raw/main/loop.bat
+curl -s -L -o loop.bat https://raw.githubusercontent.com/entaamryaamr/testo/main/loop.bat
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
 curl -s -L -o wall.bat https://gitlab.com/chamod12/changewallpaper-win10/-/raw/main/wall.bat
